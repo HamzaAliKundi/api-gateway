@@ -20,7 +20,7 @@ else app.use(morgan('combined'));
 
 
 app.get('/ping', (req, res) => {
-  res.json({ status: 'ok', message: 'API Gateway OK 😊' });
+  res.json({ status: 'Ok', message: 'API Gateway OK 😊' });
 });
 
 Object.entries(proxyConfig).forEach(([path, config]) => {
