@@ -48,4 +48,4 @@ jobs:
             npm run build
             cd ..
             pm2 restart api-gateway
-          EOF 
+          EOF
